@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="app.js"></script>
+<body>
+    <div class="container">
+      <center>  <h1 class="h1head">JavaScript Pratice Assignment Chap# 6 to 9</h1></center>
+        <div class="v3">
+        <div class=" ma row1">
+            <h2>Pre-Post Incerement/Decerement</h2>
+            <p><b>Result:</b></p>
+            <p>The value of a is: <span id="fv"> </span><br> <br><span>The value of ++a is:</span> <span id="++a"> </span> <br><span>The value of a is:</span><span id="fa"> </span><br> <br><span>The value of a++ is:</span> <span id="a++"> </span> <br><span>The value of a is:</span> <span id="sa"> </span> <br> <br><span>The value of --a is:</span> <span id="--a"></span> <br><span>The value of a is:</span><span id="ta"> </span><br> <br><span>The value of a-- is:</span> <span id="a--"> </span> <br><span>The value of a is:</span><span id="foa"> </span></p>
+            <button onclick="af()" class="btn3 btn">Start Process!</button>
+        </div> 
+        <div class="ma row2">
+            <h2>Explanation</h2>
+            <p>var a = 6, b = 5; <br>var result = --a - --b + ++b + b--; <br> <br>Explaination the output at each stage: <br>--a = 5 <br>--a - --b; = 5 <br>--a - --b + ++b; = 6 <br>--a - --b + ++b + b--; = 7 <br> <br> a is: 5 <br> <br> b is: 4 <br> <br> result is: 7</p>
+        </div>
+        <div class="ma row3">
+            <h2 class="row3h">Greetings</h2>
+            <p class="row3p" id="gret"></p>
+            <button onclick="grt()" class="btn1 btn">Start Process!</button>
+        </div>
+    </div>
+    <center>
+    <div class="v4">
+        <div class="la ma row4">
+            <h2>Tables</h2>
+            <span id="tbl"></span>
+            <button onclick="tabl()" class="btn2 btn">Start Process!</button>
+        </div>
+        <div class="la ma row">
+        <div class="row">
+            <p class="pr"> <span> <b> Subject</b></span> <br> English <br> Math <br> Urdu <br> <b>Total Marks:</b> </p>
+            <p class="pr"><span><b> Total Marks</b></span><br>100 <br>100 <br>100 <br> <b>300</b></p>
+            <p class="pr"><span><b>Obtained Marks </b></span> <br>  <span id="engop"></span> <br> <span id="matop"></span> <br><span id="urdop"></span> <br> <span>Obtain Marks:</span> <b> <span id="totob"></span></b></p>
+            <p class="pr"><span><b>Percentage</b></span> <br> <span id="engper"></span> <br> <span id="matper"></span> <br> <span id="urdper"></span> <br> <span>Total Percentage:</span> <b> <span id="totper"></span></b></p>
+           
+         </div>
+         <div class="btn9"> <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br>
+            <center><button class="btn btn5" onclick="tot()" >Start Process!</button></center>
+        </div>
+        </div>
+    </div>
+</center>
+<center>  <h1 class="h1head">JavaScript Pratice Assignment Chap# 9 to 11</h1></center>
+<div class="v4">
+    <div class="row4 ma la">
+        <h1>Greeting With City And Gender</h1>
+        <p class="pr"><span id="gender" ></span><br><br><span id="karachi" ></span> </p>
+        <button class="btn" onclick="cit()" >Start Process!</button>
+    </div>
+    <div class=" row4 traf ma la"> 
+        <h1>Signal Colors</h1>
+        <button class="btns" onclick="red()"> <b> RED!</b></button>
+        <button class="btnss" onclick="yellow()"><b>YELLOW!</b></button> 
+        <button class="btnsa" onclick="green()"><b>GREEN!</b></button>
+        <center>  <p class="sig" id="signal" ></p>
+    </center>
+    </div>
+    <div class="row4 feul ma la">
+        <p>if you have fuel more than 0.25 liter than ok other wise click bellow button</p>
+        <button class="btn" onclick="fuel()">Start Process!</button>
+        <p id="fuell"></p>
+     </div>
+</div>
+   
+   <center> <div class="v4">
+        <div class="row4 ma la res">
+            <p class="res1 res2">percentage% <br> Grater or equal to 80% <br>Grater or equal to 70% <br>Grater or equal to 60% <br>less then 60%</p>
+            <p class="res1">Grade <br>A-one <br>A <br>B <br>Fail</p>
+            <p class="res1">Remarks <br>Excellent <br>Good <br>You Need To Improve <br>Sorry</p>
+        </div>
+        <div class="la ma row">
+            <div class="row7">
+                <h1>MARK SHEET</h1>
+                <p><span>Total Marks :</span> <span>300</span> <br><span>Marks Obtained : </span> <span id="r7"></span> <br><span>Percentage : </span> <span id="r7a"></span> <br><span>Grade :</span> <span id="r7b"></span> <br> <span>Remarks : </span> <span id="r7c"></span> </p>
+             </div>
+             <div class="btn9"> <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br>
+                <center><button class="btn btn5" onclick="r7f()" >Start Process!</button></center>
+            </div>
+            </div>
+
+    </div> </center>
+    <div class="v4">
+        <div class="la ma row">
+            <div class="row8">
+                <h1>Guess Game</h1>
+                <p id="gues"></p>
+                <button class="btn" onclick="gues()">Start Process!</button>
+            </div>
+        </div>
+        <div class="la ma row diss">
+            <h1>check the <br> number is <br>
+                divisible by <br> 3 or not</h1>
+                <p id="dvi3"></p>
+                  <br> <br> <br> <br>
+                    <center><button class="btn btntt" onclick="dvithr()" >Start Process!</button></center>
+            </div>
+            <div class="la ma row diss">
+                <h1> Check The number is <br> Even or Odd</h1>
+                <p id="evodd"></p>
+                <center><button class="btn btntt" onclick="evod()" >Start Process!</button></center>
+            </div>
+            </div>
+            <div class="v4">
+                <div class="la ma row diss">
+                    <h1>Temperature</h1>
+                    <p> T 40 then “It is too hot outside.” <br>
+                         T 30 then “The Weather today is Normal.” <br>
+                         T 20 then “Today’s Weather is cool.” <br>
+                         T 10 then “OMG! Today’s weather is so Cool.”</p>
+                </div>
+                <div class="la ma row diss">
+                    <h1>Check Temperature</h1>
+                    <p id="tempe"></p>
+                    <center><button class="btn btntt" onclick="tempr()" >Start Process!</button></center>
+                </div>
+                <div class="la ma row diss">
+                    <h1>Mini Calculator</h1>
+                    <p id="mical"></p>
+                    <center><button class="btn btntt" onclick="minical()" >Start Process!</button></center>
+                </div>
+            </div>
+            <center>  <h1 class="h1head">JavaScript Pratice Assignment Chap# 12 & 13</h1></center>
+
+            <div class="v4">
+                <div class="la ma row diss">
+                    <h1>ASCII number, uppercase, lowercase</h1>
+                    <p id="asci"></p>
+                    <center><button class="btn btntt" onclick="ascif()" >Start Process!</button></center>
+                </div>
+                <div class="la ma row diss">
+                    <h1>Display the larger integer</h1>
+                    <p id="intl"></p>
+                    <center><button class="btn btntt" onclick="intt()" >Start Process!</button></center>
+                </div>
+                <div class="la ma row diss">
+                    <h1>positive, negative or zero Numbers</h1>
+                    <p id="pnzn"></p>
+                    <center><button class="btn btntt" onclick="pnzna()" >Start Process!</button></center>
+                </div>
+            </div>
+             <center> <div class="v4">
+                <div class="la ma row diss">
+                    <h1>Vowels</h1>
+                    <p id="vowl"></p>
+                    <center><button class="btn btntt" onclick="vowll()" >Start Process!</button></center>
+                    <p></p>
+                </div>
+                <div class="la ma row diss">
+                    <h1> Password Confirmation</h1>
+                    <p>Password</p>
+                    <input id="pass1q" type="password" placeholder="Password">
+                    <p>Confirm Password</p>
+                    <input id="pass1z" type="password" placeholder="Password">
+                    <p id="paspp"></p>
+                    <center><button class="btn btntt" onclick="passco()" >Start Process!</button></center>
+                </div>
+            </div></center>
+           <center> <div class="v4">
+                <div class="la ma row diss">
+                    <h1>Try to fix it:</h1>
+                    <p>var greeting; <br> <br>
+                        var hour = 13; <br> <br>
+                        if (hour < 18) { <br> <br>
+                        greeting = "Good day"; <br> <br>
+                        else <br> <br>
+                        greeting = "Good evening"; <br>
+                        }</p>
+                </div>
+                <div class="la ma row diss">
+                    <h1>Solved Fixed:</h1>
+                    <p>var greeting; <br> <br>
+                        var hour = 13; <br> <br>
+                        if (hour < 18) { <br> <br>
+                        alert("Good day"); <br> } <br> <br>
+                        else { <br> <br>
+                        alert("Good evening"); <br>
+                        }</p>
+                        <center><button class="btn btntt" onclick="solfi()" >Try Now!</button></center>
+                </div>
+            </div></center>
+</div>
+</body>
+</html>

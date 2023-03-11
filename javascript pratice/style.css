@@ -1,0 +1,153 @@
+body {
+    background-color: #0c0a0a;
+}
+/*
+.Row {
+    margin-top: 14dvi;
+    border: 2px solid #bbb1b1;
+    height: 30vh;
+    width: 36vw;
+    border-radius: 2dvi;
+}
+.pra{
+    font-size: 1.3rem;
+    color: white;
+}
+.inp {
+    border-radius: 1dvi;
+    background: rgb(255 255 255);
+    width: 14dvi;
+    height: 1.4dvi;
+}
+.gra{
+    color: rosybrown;
+}
+.btn{
+    height: 1.7dvi;
+    width: 8dvi;
+    border-radius: 1dvi;
+    background: #60b74b;
+}
+.btn:hover{
+    height: 1.7dvi;
+    width: 8dvi;
+    border-radius: 1dvi;
+    background: #d9e3d6;
+} */
+.row{
+    display: inline-flex;
+}
+ .pr{
+    margin: 1dvi;
+    font-size: 1.3rem;
+}
+/*
+.frow{
+    display: inline-grid;
+}
+.btn1{
+    width: 11dvi;
+    height: 3dvi;
+    margin-left: 32dvi;
+    border-radius: 1dvi;
+}
+.h1{
+        margin-left: 14dvi;
+} */
+
+.v3 {
+    padding: 3dvi;
+    background: #46464091;
+    display: inline-flex;
+    margin: 2dvi;
+    text-align: center;
+    border-radius: 3dvi;
+    border: 2px solid white;
+}
+.ma {
+    border: 2px solid white;
+    color: #fff0f0;
+    font-size: 1.4rem;
+    margin: 2dvi;
+    background: #221554;
+    padding: 3dvi;
+    border-radius: 2dvi;
+}
+.row3{
+    width: 15dvi;
+
+}
+.row3p
+{
+    font-size: 3rem;
+}
+.btn {
+    height: 2dvi;
+    width: 9dvi;
+    border-radius: 0.8dvi;
+    background: #e1dc3c;
+    font-size: 0.9dvi;
+}
+.v4{
+    border-radius: 3dvi;
+    border: 2px solid white;
+    padding: 3dvi;
+    background: #46464091;
+    text-align: center;
+    display: inline-flex;
+    margin: 7dvi;
+    margin-top: 2dvi;
+}
+.btn9{
+        margin-left: -11dvi;
+}
+.btn2{
+    margin-top: 2dvi;
+}
+.h1head {
+    background: #838181b0;
+    color: #dfeb2a;
+    padding: 1dvi;
+    margin-top: 2dvi;
+}
+.traf{
+    display: grid;
+}
+.btns{
+    height: 2dvi;
+    width: 9dvi;
+    border-radius: 0.8dvi;
+    background: #df0c0c;
+    color: white;
+    font-size: 0.9dvi;
+}
+.btnss{
+    height: 2dvi;
+    width: 9dvi;
+    border-radius: 0.8dvi;
+    background: #f3f310;
+    font-size: 0.9dvi;
+}
+.btnsa{
+    height: 2dvi;
+    width: 9dvi;
+    border-radius: 0.8dvi;
+    background: #11a60e;
+    color: white;
+    font-size: 0.9dvi;
+}
+.res {
+    display: inline-flex;
+    line-height: 2dvi;
+}
+.res1 {
+    font-size: 1dvi;
+    margin: 1dvi;
+    padding: 0dvi;
+}
+.res2{
+        width: 10dvi;
+}
+.diss{
+    display: inline-block;
+}
